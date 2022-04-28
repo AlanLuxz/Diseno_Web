@@ -1,0 +1,13 @@
+body {
+    background-color: rgb(142, 240, 207);
+}
+header {
+    background-color: rgb(150, 155, 155);
+    text-align: center;
+}
+article {
+    background-color: rgb(150, 155, 155);
+}
+article div {
+    display: flex;
+}
