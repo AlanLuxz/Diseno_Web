@@ -159,8 +159,8 @@ https://escuelasdecodigo.cdmx.gob.mx/wp-content/themes/escuelasdecodigo/dist/ass
           <hr>   
                    <nav>
                         <ul>
-                         <li><a href="N1">Residentes</a></li>
-                         <li><a href="N2">Negocios</a></li>
+                           <li><a href="N1">Residentes</a></li>
+                           <li><a href="N2">Negocios</a></li>
                            <li><a href="N3">Visitantes</a></li>
                            <li><a href="N4">Gobierno</a></li>
                         </ul>
