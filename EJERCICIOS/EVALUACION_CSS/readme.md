@@ -119,6 +119,8 @@ maquetación en código html y css, valor 36)
 
 ![image](https://user-images.githubusercontent.com/91554777/166742177-b3cc2bfc-7768-42e4-b4f0-dcc2a1473935.png)
 
+![image](https://user-images.githubusercontent.com/101655295/167004009-d1826277-15d3-40fa-86ab-817d63c33081.png)
+
 ● Este ejercicio lo deberás realizar con las etiquetas de HTML5, haciendo uso de los elementos semánticos de HTML5.
 
 ● Deberás, en un bloc de notas, colocar todo el código html5 y guárdalo con extensión .html
@@ -143,11 +145,128 @@ https://escuelasdecodigo.cdmx.gob.mx/wp-content/themes/escuelasdecodigo/dist/ass
 
           INGRESA AQUI EL CÓDIGO HTML
           
-          
+         <!DOCTYPE html>
+          <html>
+          <head> 
+              <link rel="stylesheet" href="css3/zeus.css">
+              <title>Escuelas de codigo</title>    
+          </head>  
+          <body>    
+              <header>
+                <div>
+                      <a href=""><img src="html5/logo.png"></a>
+                </div> 
+          <hr>   
+                   <nav>
+                        <ul>
+                         <li><a href="N1">Residentes</a></li>
+                         <li><a href="N2">Negocios</a></li>
+                           <li><a href="N3">Visitantes</a></li>
+                           <li><a href="N4">Gobierno</a></li>
+                        </ul>
+                     </nav>
+              </header>
+              <main>     
+                 <article>
+                     <div>
+                        <div1><span>></span> APRENDE A PROGRAMAR<br></div1>
+                        <div2> EN LAS <span>ESCUELAS</span><br></div2>
+                        <div3><span>DE CODIGO</span><br></div3> 
+                        <div4> DE LA CDMX</div4>     
+                     </div>
+                 </article>      
+              </main>
+              <footer>
+                    <h2>¿Quien se puede inscribir?</h2><br>
+                              Cualquier persona que quiera aprender a programar codigo y cuente con 4-8 horas disponibles a la semana.
+                          <p>Menores de edad deberan entar a las instalaciones acompañados de un adulto.</p>
+              </footer>
+          </body>  
+          </html>
           
           
           INGRESA AQUI EL CSS
           
-          
+          * {
+            margin:0em;
+            padding:0em;
+          }
+          body {
+            font-family:'Merriweather Sans', sans-serif;
+            font-family:'Noto Sans', sans-serif;
+            font-family:'Noto Serif', serif;
+            font-family:'PT Sans', sans-serif;
+          }
+          header {
+             background-color: white;
+          }
+          header div {
+             display:flex;
+             margin: 1em;
+          }
+          Header ul {
+             display: flex;
+             list-style-type: none;
+             margin-left: 93em; 
+          }
+          li {
+             padding: 1em;
+          }
+          a {
+            justify-content: space-between;  
+            text-decoration: none;
+            color: green;
+          }
+          main {
+            background: url("fondo.jpg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            padding: 5%;
+          }
+          article div {
+            margin-left: -2em;
+          }
+          article div1 {
+            font-size: 65px;
+            text-aling: center;
+            color: white;
+            margin-left: -.4em;
+          }
+          article div2 {
+            font-size: 65px;
+            text-aling: center;
+            color: white;
+            margin-left: 3em;
+          }
+          article div3 {
+            font-size: 65px;
+            text-aling: center;
+            color: white;
+            margin-left: 6.8em;
+          }
+          article div4 {
+            font-size: 65px;
+            text-aling: center;
+            color: white;
+            margin-left: 6.8em;
+          }
+          span {
+            font-weight: bold;
+            font-size: 81px;
+          }
+          footer {
+            padding:1.5em;
+            text-align: center;
+            font-size: 1.1em;
+          }
+          footer h2 {
+             color: #926C15;
+          }
+          footer p {
+            color: gray;
+          }  
           
  Ingresa el link a tu página del proyecto final
+
+ https://alanluxz.github.io/Ejercicio-final-/
